@@ -26,7 +26,7 @@ SECRET_KEY = 'i6uas2zsjgz1e40%32%wr3h)jlu61qx=8g$b+kiks1^r=s(kj&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ALLOWED_HOSTS = ['127.0.0.1', 'localhost','35.228.221.223']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','35.228.221.223']
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = True
 
